@@ -383,7 +383,8 @@ program define multishell_getExePath, rclass
 			
 			if fileexists("`exepath'") == 0 {
 				display as smcl "No Stata exe found. Please set a path using {help multishell##settingup:multishell exepath}."
-				exit
+				display as smcl "Program will keep going but might crash."
+			*	exit
 			}
 		}
 		
