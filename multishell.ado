@@ -369,6 +369,14 @@ program define multishell_getExePath, rclass
 			local exename `"`datafiles)'"'
 		}
 		else {
+            local type "IC"
+            if `c(MP)' == 1 {
+                local type "MP"
+            }
+            else if `c(SE)' == 1 {
+                local type "SE"
+            }
+			/*
 			if `c(SE)' == 1 & `c(MP)' == 0 {
 				local type "SE"
 			}
@@ -377,7 +385,7 @@ program define multishell_getExePath, rclass
 			}
 			else {
 				local type "IC"
-			}
+			} */
 			local exepath "`c(sysdir_stata)'Stata`type'-`c(bit)'.exe"
 			local exename "Stata`type'-`c(bit)'.exe"
 			

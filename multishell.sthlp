@@ -1,6 +1,6 @@
 {smcl}
 {hline}
-{hi:help multishell}{right: v. 2.0 - October 2018}
+{hi:help multishell}{right: v. 2.1 - July 2021}
 {hline}
 {title:Title}
 
@@ -1001,8 +1001,8 @@ It does not help to speed up existing Stata commands such as {cmd: regress}, {cm
 
 {marker about}{title:Author}
 
-{p 4}Jan Ditzen (Heriot-Watt University){p_end}
-{p 4}Email: {browse "mailto:j.ditzen@hw.ac.uk":j.ditzen@hw.ac.uk}{p_end}
+{p 4}Jan Ditzen (Free University of Bozen-Bolzano){p_end}
+{p 4}Email: {browse "mailto:jan.ditzen@unibz.it":jan.ditzen@unibz.it}{p_end}
 {p 4}Web: {browse "www.jan.ditzen.net":www.jan.ditzen.net}{p_end}
 
 {p 4 8}Thanks to Francesca Watson for reminding me using batch files to run multiple instances of Stata. 
@@ -1014,7 +1014,7 @@ The program code to obtain random numbers from random.org is taken from
 {p_end}
 
 {p 4 8}Please cite as follows:{break}
-Ditzen, J. 2018. multishell{p_end}
+Ditzen, J. 2021. multishell{p_end}
 
 {p 4 8}The latest versions and examples can be obtained via {stata "net from http://www.ditzen.net/Stata"}.{p_end}
 
@@ -1028,7 +1028,7 @@ I do not take over responsibility for any computer crashes, lost work or financi
 
 {marker changelog}{title:Changelog}
 
-{p 4 8}This version: 2.0 - 2. October 2018{p_end}
+{p 4 8}This version: 2.1 - 29. July 2021{p_end}
 
 
 {title:Also see}
