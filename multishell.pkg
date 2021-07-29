@@ -1,7 +1,7 @@
 v 3
 d multishell  module to allot do files and variations of loops across parallel instances of Windows Stata and computers efficiently.
 d Jan Ditzen, Free Unviersity of Bozen-Bolzano
-d Distribution-Date:  20210201
+d Distribution-Date:  20210829
 f multishell.ado
 f multishell.sthlp
 
