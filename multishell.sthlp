@@ -1016,8 +1016,9 @@ The program code to obtain random numbers from random.org is taken from
 {p 4 8}Please cite as follows:{break}
 Ditzen, J. 2021. multishell{p_end}
 
-{p 4 8}The latest versions and examples can be obtained via {stata "net from http://www.ditzen.net/Stata"}.{p_end}
+{p 4 8}Please note that {cmd:multishell} will not be improved further.{p_end}
 
+{p 4 8}Occasional updates and examples can be obtained via {stata "net from https://janditzen.github.io/multishell"}.{p_end}
 
 {marker disclaimer}{title:Disclaimer}
 
